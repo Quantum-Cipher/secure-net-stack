@@ -53,74 +53,7 @@ secure-net-stack/
 
 ### 1. Clone the Repository
 
-```bash
-git clone git@github.com:Quantum-Cipher/secure-net-stack.git
-cd secure-net-stack
 
-2. Set Up Python Environment
 
-python3 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
 
-3. Run Demo Node
 
-python3 examples/demo_node.py
-
-4. Run Unit Tests
-
-python3 -m unittest discover -s tests
-
-Ensure all tests pass before making contributions.
-
-⸻
-
-Contributing
-
-We welcome contributions from the community!
-Please see CONTRIBUTING.md￼ for:
-	•	Environment setup
-	•	Coding guidelines
-	•	Feature branching
-	•	Pull request workflow
-
-⸻
-
-License
-
-This project is licensed under the MIT License. See LICENSE￼ for full details.
-
-⸻
-
-Repo Structure Diagram
-
-secure-net-stack/
-├─ README.md
-├─ CONTRIBUTING.md
-├─ LICENSE
-├─ .gitignore
-├─ requirements.txt
-├─ src/
-│   ├─ networking.py
-│   ├─ encryption.py
-│   └─ node.py
-├─ examples/
-│   └─ demo_node.py
-├─ tests/
-│   ├─ test_networking.py
-│   └─ test_encryption.py
-└─ docs/
-    └─ architecture.md
-
-This structure ensures modularity, testability, and easy collaboration.
-
-⸻
-
-With this README.md, the repository is now professional, contributor-friendly, and ready for open-source collaboration.
-
----
-
-If you want, I can also generate a **full “ready-to-paste repository scaffold”** with all folders and files including `src/`, `examples/`, `tests/`, `docs/`, and the updated `README.md` + `CONTRIBUTING.md`, so you can just paste it all into GitHub in one go and have a fully complete repo.  
-
-Do you want me to do that next?

@@ -1,0 +1,21 @@
+secure-net-stack/
+│
+├─ README.md              # Overview and instructions
+├─ LICENSE                # MIT License (open source friendly)
+├─ .gitignore             # Ignores temporary or compiled files
+├─ requirements.txt       # Python dependencies (cryptography)
+│
+├─ src/                   # Core source code modules
+│   ├─ networking.py      # SecureSocket implementation
+│   ├─ encryption.py      # SecureChannel implementation
+│   └─ node.py            # NetworkNode integrating socket + encryption
+│
+├─ examples/              # Example usage scripts
+│   └─ demo_node.py       # Demonstrates sending/receiving encrypted messages
+│
+├─ tests/                 # Unit tests for modules
+│   ├─ test_networking.py
+│   └─ test_encryption.py
+│
+└─ docs/                  # Documentation
+    └─ architecture.md    # Architecture overview
